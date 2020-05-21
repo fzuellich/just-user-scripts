@@ -1,0 +1,11 @@
+#+TITLE: README
+
+The repository contains some unofficial user scripts to add "power user
+features" to Just Connect.
+
+This repository is:
+- unofficial
+- unsupported
+- not endorsed
+
+by Just Software.

@@ -1,0 +1,62 @@
+#+TITLE: README
+
+[[./_static/banner.gif]]
+
+Provides a way to search for Emojis when using Just Connect (chat).
+
+* Known issues
+
+- Does not work in the sidebar. Only in the Connect app itself.
+- Pasting a URL will trigger the suggest box.
+- Arrow keys are not supported.
+- Sometimes the suggest box is rendered empty.
+- Some emojis are not so easily found, for example when they contain a hypen
+  (=-=) like: 'See-No-Evil monkey'. It helps searching =:see monk=.
+
+* Installation
+
+1. You will need the Greasmonkey browser plugin:
+   - [[https://addons.mozilla.org/en-GB/firefox/addon/greasemonkey/][For Firefox]]
+   - For Chrome it MIGHT work with the [[https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo][Tampermonkey plugin]]
+2. Create a new user script through the Greasemonkey interface.
+3. Click [[https://raw.githubusercontent.com/fzuellich/just-user-scripts/master/emoji-picker/emoji-picker.user.js][this link]]. An installation dialog should open. Otherwise create a new
+   script and paste the content of the link.
+4. Make sure the script is enabled.
+
+* How to use
+
+The script only works for the main chat application. The sidebar is not
+supported.
+
+1. Activate the search by typing =:= and the first letter of your search.
+
+  For example: =:r= should start showing results for all emojis with the letter
+   =r= as first character of a word: =rainbow=, =Umbrella with rain drops=, etc.
+
+2. Press =TAB= to insert the first emoji in the list.
+
+   Due to the fact how the Chat applications handles the submit event of the
+   input, we can't use =ENTER=.
+
+3. Clicking on an emoji suggestion will also insert it.
+
+
+** Tip: Combining words
+You can search an emoji that consist of multiple words.
+
+Imagine you want to search for =Umbrella with rain drops=:
+1. Typing =:umbrella= will lead to multiple results.
+2. Refine your search by adding another word =:umbrella with=. That is still not
+   enough.
+3. Refine your search even more =:umbrella with rain=.
+4. Press =TAB= to insert.
+
+** Tip: Using only the first characters
+Because the emoji picker will search from the beginning of each word you can
+simplify the aforementioned example.
+
+Imagine you want to search for =Umbrella with rain drops=. Instead of typing out
+all the words, you can just use the first characters.
+
+1. Type =:um w r=.
+2. Press =TAB= to insert.
