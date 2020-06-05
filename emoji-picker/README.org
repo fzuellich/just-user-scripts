@@ -18,10 +18,9 @@ Provides a way to search for Emojis when using Just Connect (chat).
 1. You will need the Greasmonkey browser plugin:
    - [[https://addons.mozilla.org/en-GB/firefox/addon/greasemonkey/][For Firefox]]
    - For Chrome it MIGHT work with the [[https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo][Tampermonkey plugin]]
-2. Create a new user script through the Greasemonkey interface.
-3. Click [[https://raw.githubusercontent.com/fzuellich/just-user-scripts/master/emoji-picker/emoji-picker.user.js][this link]]. An installation dialog should open. Otherwise create a new
+2. Click [[https://raw.githubusercontent.com/fzuellich/just-user-scripts/master/emoji-picker/emoji-picker.user.js][this link]]. An installation dialog should open. Otherwise create a new
    script and paste the content of the link.
-4. Make sure the script is enabled.
+3. Make sure the script is enabled.
 
 * How to use
 
