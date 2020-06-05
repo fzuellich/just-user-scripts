@@ -7,7 +7,7 @@ Provides a way to fuzzy search all folders in the PWDB.
 1. You will need the Greasmonkey browser plugin:
    - [[https://addons.mozilla.org/en-GB/firefox/addon/greasemonkey/][For Firefox]]
    - For Chrome it MIGHT work with the [[https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo][Tampermonkey plugin]]
-2. Click [[https://raw.githubusercontent.com/fzuellich/just-user-scripts/master/emoji-picker/emoji-picker.user.js][this link]]. An installation dialog should open. Otherwise create a new
+2. Click [[https://github.com/fzuellich/just-user-scripts/raw/master/pwdb-search/pwdb-search.user.js][this link]]. An installation dialog should open. Otherwise create a new
    script and paste the content of the link.
 3. Make sure the script is enabled.
 
